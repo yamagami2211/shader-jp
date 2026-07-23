@@ -1,0 +1,75 @@
+#shaders/lang/ja_jp.lang
+#github.com/yamagami2211/shader-jp
+
+option.ENABLE_SOFT_SHADOWS=ソフトシャドウ
+option.VARIABLE_PENUMBRA_SHADOWS=可変半影シャドウ
+option.COLORED_SHADOWS=着色シャドウ
+option.PIXEL_SHADOWS=ピクセルロック・シャドウ
+option.TEXTURE_RESOLUTION=テクスチャ解像度
+option.ATMOSPHERIC_SCATTERING=大気散乱
+option.CREPUSCULAR_RAYS=薄明光線 (サンレイ)
+option.FORCE_WET_EFFECT=濡れエフェクトの強制適用
+option.HQ_VOLUMETRIC_CLOUDS=高品質ボリューメトリッククラウド
+option.VOLUMETRIC_CLOUDS=ボリューメトリッククラウド (立体雲)
+option.PARALLAX=視差立体マッピング (POM)
+option.PARALLAX_SHADOW=視差セルフシャドウ
+option.ENABLE_SSAO=SSAO (環境光遮蔽)
+option.GI=グローバルイルミネーション (GI)
+option.SMOOTH_CLOUDS=雲のスムージング
+option.shadowMapResolution=影の解像度
+option.shadowDistance=影の描画距離
+option.GI_ARTIFACT_REDUCTION=GI アーティファクト軽減
+option.GI_QUALITY=GI 品質
+option.GI_RENDER_RESOLUTION=GI 解像度
+option.GI_RADIUS=GI 半径
+option.WATER_PARALLAX=水の視差効果
+option.WATER_CAUSTICS=水中の日光模様 (苛烈光/コウスティクス)
+option.ATMOSPHERIC_HAZE=大気のモヤ (ヘイズ)
+option.RAYLEIGH_AMOUNT=大気密度
+option.TORCHLIGHT_BRIGHTNESS=松明の明るさ
+option.TORCHLIGHT_COLOR_TEMPERATURE=松明の色温度
+option.TORCHLIGHT_FILL=松明の補助光 (Fill)
+option.HELD_TORCHLIGHT=手持松明の光源化
+option.MOTION_BLUR=モーションブラー
+option.TONEMAP_STRENGTH=トーンマップカーブ強度
+
+option.PARALLAX_HQ=高精度視差マッピング
+option.PARALLAX_DEPTH=視差の深度
+
+option.SUNLIGHT_INTENSITY=太陽光の強度
+
+option.RAIN_SPLASH_EFFECT=雨の水はねエフェクト
+option.RAIN_SPLASH_BILATERAL=雨の水はねテクスチャフィルタ
+option.ENTITY_STATUS_COLOR=エンティティの状態変化カラー
+
+option.BLOOM_AMOUNT=ブルーム強度
+option.MICRO_BLOOM=マイクロブルーム
+option.TONEMAP_CURVE=トーンマッピングカーブ
+option.EXPOSURE=露出 (エクスポージャー)
+option.GAMMA=ガンマ
+option.LUMA_GAMMA=輝度ガンマ
+option.SATURATION=彩度
+option.WHITE_CLIP=ホワイトクリッピング
+
+option.TAA_ENABLED=TAA (時間軸アンチエイリアス)
+option.TAA_SOFTNESS=TAA の柔らかさ
+option.TAA_AGGRESSIVE=強力な TAA
+option.SHARPENING=画像のシャープネス
+
+option.TONEMAP_OPERATOR=トーンマップ演算子
+value.TONEMAP_OPERATOR.SEUSTonemap=SEUS
+value.TONEMAP_OPERATOR.HableTonemap=Hable
+value.TONEMAP_OPERATOR.ACESTonemap=ACES
+value.TONEMAP_OPERATOR.ACESTonemap2=ACES2
+
+profile.LOW=低
+profile.MEDIUM=中
+profile.HIGH=高
+profile.ULTRA=ウルトラ
+profile.EXTREME=エクストリーム
+
+screen.ATMOSPHERICS=大気・環境設定
+screen.LIGHTING=ライティング＆影設定
+screen.SURFACE=水面・地質設定
+screen.GIADVANCED=高度な GI 設定
+screen.POSTPROCESSING=ポストプロダクション設定

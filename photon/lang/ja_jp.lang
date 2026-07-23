@@ -1,0 +1,196 @@
+#shaders/lang/ja_jp.lang
+#github.com/yamagami2211/shader-jp
+
+# Profiles  
+  
+profile.low = §e低  
+profile.medium = §a中  
+profile.high = §b高  
+profile.ultra = §dウルトラ  
+  
+# Screens  
+  
+screen.world = ワールド  
+screen.lighting = ライティング  
+screen.sky = 空  
+screen.fog = 霧  
+screen.materials = マテリアル  
+screen.water = 水  
+screen.post = ポストプロダクション  
+screen.misc = その他  
+  
+screen.weather = 天候  
+screen.colored_lights = カラーライティング設定  
+screen.rp_settings = リソースパック設定  
+screen.reflections = 反射  
+screen.refraction = 屈折  
+screen.light_sources = 光源  
+screen.shadows = 影  
+screen.ao = 環境光遮蔽 (AO)  
+screen.color_grading = カラーグレーディング  
+screen.exposure = 露出 (エクスポージャー)  
+screen.lpv_vl = カラーライティングのフォグ散乱  
+screen.box = 選択ボックス  
+screen.distant_horizons = Distant Horizons (遠景描画MOD)  
+screen.developer = 開発者用オプション  
+  
+screen.aurora = オーロラ  
+screen.clouds = 雲  
+screen.crepuscular_rays = 薄明光線 (サンレイ)  
+screen.stars = 星  
+screen.clouds_cumulus = 積雲設定  
+screen.clouds_altocumulus = 高積雲設定  
+screen.clouds_cumulus_congestus = 雄大積雲設定  
+screen.clouds_cirrus = 巻雲 / 絹雲設定  
+screen.clouds_minecrafty = バニラ風ブロック雲設定  
+screen.clouds_noctilucent = 夜光雲設定  
+  
+screen.fog_rlh = レイリーフォグ  
+screen.fog_mie = ミーフォグ  
+screen.sunlight_color = 太陽光カラー  
+screen.moonlight_color = 月光カラー  
+screen.blocklight_color = ブロック光カラー  
+screen.sunlight_morning = 朝  
+screen.sunlight_noon = 昼  
+screen.sunlight_evening = 夕方  
+screen.light_nether = ネザー  
+screen.light_end = エンド  
+screen.fog_rlh_normal = 通常時の色  
+screen.fog_rlh_rain = 雨天時の色  
+screen.fog_rlh_arid = 砂漠・乾燥地帯の色  
+screen.fog_rlh_snowy = 降雪時の色  
+screen.fog_rlh_taiga = タイガの色  
+screen.fog_rlh_jungle = ジャングルの色  
+screen.fog_rlh_swamp = 湿地帯の色  
+screen.water_waves = 水面の波  
+screen.water_fog_coeff = 水中フォグ係数  
+  
+screen.end_light_color = 光の色  
+screen.end_ambient_color = 環境光の色  
+screen.nether_color = 静的カラー  
+  
+screen.distance_view = 遠景表示  
+  
+option.INFO = Photon Shaders  
+value.INFO.0 = §eby SixthSurge  
+value.INFO.1 = §aby SixthSurge  
+value.INFO.2 = §bby SixthSurge  
+value.INFO.3 = §dby SixthSurge  
+  
+# World settings  
+  
+option.WAVING_PLANTS = 植物の揺れ  
+option.WAVING_PLANTS.comment = 地面の植物が風で揺れます。\\n\\n揺れる植物のリストにブロックを追加するには、shaders/block.properties を開き、該当カテゴリ(10016, 10017, 10018)に追加してください。  
+option.WAVING_LEAVES = 葉の揺れ  
+option.WAVING_LEAVES.comment = 葉ブロックが風で揺れます。\\n\\nshaders/block.properties のカテゴリ(10019)で指定できます。  
+option.SLANTED_RAIN = 斜め降る雨  
+option.SLANTED_RAIN.comment = 雨粒子が斜めに降るようになり、雨の雰囲気を強化します。  
+option.RAIN_OPACITY = 雨の不透明度  
+option.RAIN_OPACITY.comment = 雨粒子の不透明度を調整します。  
+option.SEA_LEVEL = 海抜高度  
+option.SEA_LEVEL.comment = 海や地面のY座標を指定します。\\n\\n-60.0: 1.18以降のスーパーフラット\\n4.0: 1.18以前のスーパーフラット\\n63.0: 通常のワールド  
+option.SNOW_OPACITY = 雪の不透明度  
+option.SNOW_OPACITY.comment = 雪粒子の不透明度を調整します。  
+option.EDGE_HIGHLIGHT = 輪郭ハイライト  
+option.EDGE_HIGHLIGHT.comment = Minecraft Dungeonsにインスパイアされた輪郭強調効果です。  
+option.EDGE_HIGHLIGHT_SCALE = 輪郭ハイライトスケール  
+option.EDGE_HIGHLIGHT_SCALE.comment = 輪郭線の太さを調整します。使用しているリソースパックの解像度に合わせて変更してください。  
+option.MOON_PHASE_AFFECTS_BRIGHTNESS = 月相による光の影響  
+option.MOON_PHASE_AFFECTS_BRIGHTNESS.comment = 夜間の明るさが月の満ち欠けによって変化します。  
+option.DESERT_SANDSTORM = 砂漠の砂嵐  
+option.DESERT_SANDSTORM.comment = 砂漠バイオームでの降雨時に砂嵐を発生させます。  
+option.END_GLOW = エンドの発光効果  
+option.END_GLOW.comment = エンド次元での揺らめく発光効果。ボリューメトリックフォグが必要です。  
+  
+# Weather  
+option.RANDOM_WEATHER_VARIATION = ランダムバリエーション  
+option.BIOME_WEATHER_VARIATION = バイオーム別バリエーション  
+option.WEATHER_TEMPERATURE_BIAS = 気温バイアス  
+option.WEATHER_HUMIDITY_BIAS = 湿度バイアス  
+option.WEATHER_WIND_BIAS = 風力バイアス  
+option.WEATHER_TEMPERATURE_VARIATION_SPEED = 気温変化速度  
+option.WEATHER_HUMIDITY_VARIATION_SPEED = 湿度変化速度  
+option.WEATHER_WIND_VARIATION_SPEED = 風力変化速度  
+  
+# Lighting settings  
+  
+option.COLORED_LIGHTS = カラーライティング  
+option.COLORED_LIGHTS.comment = フラッドフィルアルゴリズムを使用した色つきブロック光。Iris 1.6以上が必要です。  
+option.COLORED_LIGHTS_VANILLA_LIGHTMAP_CONTRIBUTION = バニラライトマップの影響度  
+option.HANDHELD_LIGHTING = 手持ちアイテムの光源化  
+option.HANDHELD_LIGHTING.comment = 手に持ったアイテムが周囲を照らします。カラーライティングが有効な場合、そのアイテムに応じた色で照らします。  
+option.HANDHELD_LIGHTING_INTENSITY = 手持ち光源の強度  
+option.HANDHELD_LIGHTING_INTENSITY.comment = 手持光源の明るさを調整します。  
+option.AO_IN_SUNLIGHT = 直射日光下のAO  
+option.AO_IN_SUNLIGHT.comment = 日光や月光が直接当たる場所にも環境光遮蔽（AO）を適用するかどうかを設定します。  
+option.CLOUD_SHADOWS = 雲の影  
+option.CLOUD_SHADOWS.comment = 雲が地面に落とす影です。  
+option.CLOUD_SHADOWS_INTENSITY = 雲の影の強度  
+option.CLOUD_SHADOWS_INTENSITY.comment = 雲の影の濃さを調整します。  
+option.SH_SKYLIGHT = SHスカイライト  
+option.SH_SKYLIGHT.comment = オーバーワールドで球面調和関数(SH)を使用した指向性スカイライトを適用し、非常に自然な光を表現します。GTAOとの組み合わせに最適です。  
+option.SSS_SHEEN = SSSツヤ (Sheen)  
+option.SSS_SHEEN.comment = 植物や葉の表面のツヤ効果。背の高い草などが地面とよく馴染むようになります。  
+option.SSS_INTENSITY = SSS強度  
+option.SSS_INTENSITY.comment = 表面下散乱（SSS）の明るさを調整します。  
+option.SHADING_STRENGTH = 陰影の強さ  
+option.SHADING_STRENGTH.comment = 直接光による陰影のコントラストを調整します。値を下げると影になっていない裏面が明るくなり、上げると暗くなります。  
+  
+option.SHADOW = シャドウマッピング  
+option.SHADOW_PCF = 影マップフィルタリング  
+option.SHADOW_SSRT = SSRT遠景影  
+option.SHADOW_SSRT_STEPS = SSRT影ステップ数  
+option.SHADOW_COLOR = 着色シャドウ  
+option.SHADOW_COLOR.comment = 半透明ブロックが色付きの影を落とします。  
+option.SHADOW_VPS = 可変半影シャドウ (VPS)  
+option.SHADOW_VPS.comment = 影を落とす物体から離れるほど影がボケて柔らかくなります。  
+option.shadowMapResolution = 影の解像度  
+option.shadowDistance = 影の描画距離  
+option.sunPathRotation = 太陽の軌道回転  
+option.SHADOW_PENUMBRA_SCALE = 影の柔らかさ  
+option.SHADOW_PENUMBRA_SCALE.comment = 影のボケ具合を調整します。  
+option.ENTITY_SHADOWS = エンティティの影  
+option.ENTITY_SHADOWS.comment = エンティティが影を落とすかどうか設定します。大規模農場などがある拠点でパフォーマンスを向上させたい場合は無効にしてください。  
+option.BLOCK_ENTITY_SHADOWS = ブロックエンティティの影  
+option.PIXELATED_SHADOWS = ピクセル化シャドウ  
+option.PIXELATED_SHADOWS.comment = 影をブロックのドット単位にスナップさせ、ドット絵風の見た目にします。  
+option.PIXELATED_SHADOWS_RESOLUTION = ピクセル化シャドウ解像度  
+option.SSS_STEPS = SSSステップ数   
+option.SSS_STEPS.comment = 値を上げると葉などのSSSノイズが軽減されますが、負荷が高くなります。  
+  
+option.SHADER_AO = シェーダーAO  
+option.SHADER_AO.comment = 使用するAOの手法です。 Off: なし / SSAO: 低負荷だがサンプル数が少ない / GTAO: 高品質だがサンプル・フィルタリングの負荷が高い  
+value.SHADER_AO.SHADER_AO_NONE = オフ  
+value.SHADER_AO.SHADER_AO_SSAO = SSAO  
+value.SHADER_AO.SHADER_AO_GTAO = GTAO  
+option.VANILLA_AO = バニラAO  
+option.VANILLA_AO.comment = Minecraft内蔵の環境光遮蔽効果です。  
+option.SSAO_RADIUS = SSAO半径  
+option.SSAO_RADIUS.comment = 物体同士が影を及ぼし合う距離（半径）を調整します。  
+option.SSAO_STEPS = SSAOステップ数  
+option.SSAO_STEPS.comment = SSAOのノイズ感を調整します。  
+option.GTAO_RADIUS = GTAO半径  
+option.GTAO_RADIUS.comment = 物体同士が影を及ぼし合う距離（半径）を調整します。  
+option.GTAO_SLICES = GTAOスライス数  
+option.GTAO_SLICES.comment = GTAOのノイズ感を調整します。  
+option.GTAO_HORIZON_STEPS = GTAOホライゾンステップ数  
+option.GTAO_HORIZON_STEPS.comment = GTAOの精度をコントロールします。  
+  
+option.SUN_NR = §c赤  
+option.SUN_NG = §a緑  
+option.SUN_NB = §9青  
+option.SUN_MR = §c赤  
+option.SUN_MG = §a緑  
+option.SUN_MB = §9青  
+option.SUN_ER = §c赤  
+option.SUN_EG = §a緑  
+option.SUN_EB = §9青  
+option.SUN_I = 太陽光強度  
+option.MOON_R = §c赤  
+option.MOON_G = §a緑  
+option.MOON_B = §9青  
+option.MOON_I = 月光強度  
+option.SKYLIGHT_I = スカイライト強度  
+option.BOUNCED_LIGHT_I = 照り返し太陽光強度  
+option.CAVE_LIGHTING_I = 洞窟の明るさ  
+option.LIGHTNING_FLASH = 稲妻のフラッシュ

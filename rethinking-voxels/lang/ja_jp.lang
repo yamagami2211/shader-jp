@@ -1,0 +1,379 @@
+#shaders/lang/ja_jp.lang
+#github.com/yamagami2211/shader-jp
+
+#Profiles  
+profile.POTATO=§aポテト  
+profile.VERYLOW=§a極低  
+profile.LOW=§a低  
+profile.MEDIUM=§a中  
+profile.HIGH=§e高 (デフォルト)  
+profile.VERYHIGH=§c最高  
+profile.ULTRA=§4§lウルトラ  
+profile.COMPLEMENTARY=§4§l§n§oComplementary  
+profile.comment=シェーダープロファイルは画質とパフォーマンスのバランスが最も最適化されたプリセットに変更します。 §e[*]§r 特別な理由がない限り、これらのプロファイルのいずれかを使用することをお勧めします。 §e[*]§r 影響を受けるすべての設定は「パフォーマンス設定」または「Rethinking Voxels設定」メニューにあります。  
+  
+#Information  
+screen.INFORMATION=情報  
+screen.INFORMATION.comment=このセクションには情報提供のみを目的としたボタンが含まれています。  
+  
+option.info0=§bボタンの上にマウスを乗せてください  
+value.info0.0=  
+option.info0.comment=このセクションには情報提供のみを目的としたボタンが含まれています。  
+  
+option.info1=パフォーマンスを向上させる方法  
+value.info1.0=  
+option.info1.comment=Minecraftでのパフォーマンスは多くの要因に影響されますが、以下を試すことができます: 描画距離を短くする（ほとんどのデバイスで6〜16が理想的です）。「プロファイル」設定を下げる（画質とパフォーマンスの比率が慎重にテストされています）。詳細は後日追加予定です。  
+  
+option.info2=おすすめの設定について  
+value.info2.0=  
+option.info2.comment=最適な設定は好みに寄りますが、デフォルト設定がほとんどの人にとってほぼ最適です。デフォルト設定はコミュニティの長年の評価とフィードバックに基づいて調整されています。お好みに合わせて自由に調整してお楽しみください！  
+  
+option.info3=プロファイルとビジュアルスタイルの違い  
+value.info3.0=  
+option.info3.comment=「プロファイル」設定は「パフォーマンス設定」メニュー内の項目を変更しますが、好みに基づく設定には影響しません。「ビジュアルスタイル」は多くの好みに関する設定にある「スタイルで設定」の値を変更しますが、パフォーマンスには大きな影響を与えません。  
+  
+option.info4=RP Support (リソースパックサポート) とは  
+value.info4.0=  
+option.info4.comment=RP Supportオプションは、シェーダーパックがMinecraftの各ブロックをどのように処理するかを決定します。例えば §bIntegratedPBR+§r は金ブロックを反射するものとして扱いますが、§elabPBR§r や §eseuspbr§r ではそれをシェーダーに伝えるためにリソースパックの導入が必要です。RP Supportを §aBasic§r に設定すると、水などの一部の例外を除いて特別な効果は付与されなくなります。  
+  
+option.info5=モッドの問題を解決する方法  
+value.info5.0=  
+option.info5.comment=シェーダーパックの仕組み上、MODとの不具合は避けられませんが、ComplementaryのMOD問題に関する情報ページで既知の修正方法を確認できます。 www.complementary.dev/mod-issues  
+  
+option.info6=  
+value.info6.0=  
+option.info6.comment=  
+  
+option.info7=  
+value.info7.0=  
+option.info7.comment=  
+  
+option.info8=コミュニティへの参加方法  
+value.info8.0=  
+option.info8.comment=ComplementaryのDiscordサーバーに参加してフレンドリーなコミュニティに参加したり、開発者や経験豊富なメンバーと連絡を取ることができます。 www.complementary.dev/discord  
+  
+option.info9=Complementaryを支援する方法  
+value.info9.0=  
+option.info9.comment=Complementaryの開発を支援する最良の方法は、友人やSNSで共有することです。また、Patreonで開発者を直接支援することもできます。 www.patreon.com/emingt  
+  
+option.info10=クレジット  
+value.info10.0=  
+option.info10.comment=EminGT: Complementaryのメイン開発者。 Capt Tatsu: BSL Shadersの開発者（彼の寛大さのおかげでComplementaryが実現しました）。 スペシャルサンクス: IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap  
+  
+#Style  
+option.SHADER_STYLE=ビジュアルスタイル  
+option.SHADER_STYLE.comment=シェーダーパックのデフォルトの見た目のスタイルを決定します。 §bReimagined§r: Minecraft独自のビジュアル要素を維持しながら引き立てます。 §dUnbound§r: セミリアルなファンタジースタイルでMinecraftのビジュアルを再構築します。 §e[*]§r 影響を受ける設定: 水のスタイル、雲のスタイル、太陽/月のスタイル、太陽/月の角度、オーロラのスタイル、発光鉱石。  
+value.SHADER_STYLE.1=§bReimagined  
+value.SHADER_STYLE.4=§dUnbound  
+  
+#Screens  
+screen.PERFORMANCE_SETTINGS=§eパフォーマンス設定§r  
+screen.PERFORMANCE_SETTINGS.comment=パフォーマンスに直接関係し、シェーダープロファイルによって変更される設定です。  
+  
+screen.ATMOSPHERE_SETTINGS=大気  
+screen.ATMOSPHERE_SETTINGS.comment=大気に関連する設定です。  
+  
+screen.ATM_COLOR_SETTINGS=大気カラー乗数  
+screen.ATM_COLOR_SETTINGS.comment=主に空や霧に見られる大気の色をカスタマイズできます。  
+  
+screen.MORNING_ATM_MULTS=日の出 / 日の入り時  
+screen.NOON_ATM_MULTS=昼間  
+screen.NIGHT_ATM_MULTS=夜間  
+screen.RAIN_ATM_MULTS=雨天  
+screen.NETHER_ATM_MULTS=ネザー次元  
+screen.END_ATM_MULTS=エンド次元  
+  
+screen.CLOUD_SETTINGS=雲  
+screen.CLOUD_SETTINGS.comment=雲に関連する設定です。  
+  
+screen.CLOUD_COLOR_SETTINGS=雲の色  
+screen.CLOUD_COLOR_SETTINGS.comment=雲の色を変更する設定です。  
+  
+screen.CLOUD_UNBOUND_SETTINGS=Unbound雲設定  
+screen.CLOUD_REIMAGINED_SETTINGS=Reimagined雲設定  
+  
+screen.FOG_SETTINGS=霧  
+screen.FOG_SETTINGS.comment=さまざまな種類の霧に関連する設定です。  
+  
+screen.SUN_MOON_SETTINGS=太陽 / 月  
+screen.SUN_MOON_SETTINGS.comment=太陽と月に関連する設定です。  
+  
+screen.NETHER_SETTINGS=ネザー次元  
+screen.NETHER_SETTINGS.comment=ネザー次元に関連する設定です。  
+  
+screen.WEATHER_SETTINGS=雨 / 天候  
+screen.WEATHER_SETTINGS.comment=天候状態に関連する設定です。  
+  
+screen.CAMERA_SETTINGS=カメラ  
+screen.CAMERA_SETTINGS.comment=視点/カメラに関連する設定です。  
+  
+screen.TONEMAP_SETTINGS=カラーバランス  
+screen.TONEMAP_SETTINGS.comment=ビジュアルのカラーバランスを決定する設定です。  
+  
+screen.COLORGRADING_SETTINGS=カラーグレーディング  
+screen.COLORGRADING_SETTINGS.comment=最終的なカラーチャンネルを調整する設定です。  
+  
+screen.WORLD_BLUR_SETTINGS=ワールドブラー  
+screen.WORLD_BLUR_SETTINGS.comment=ブラー（ぼかし）効果に関連する設定です。  
+  
+screen.MATERIAL_SETTINGS=マテリアル（素材）  
+screen.MATERIAL_SETTINGS.comment=Minecraftの素材・質感に関連する設定です。  
+  
+screen.IPBR_SETTINGS=IntegratedPBR+ マテリアル  
+screen.IPBR_SETTINGS.comment=IntegratedPBR+の機能に関連する設定です。  
+  
+screen.GLOWING_ORE_SETTINGS=発光鉱石  
+screen.GLOWING_ORE_SETTINGS.comment=鉱石ブロックの発光を調整する設定です。  
+  
+screen.GLOWING_STUFF_SETTINGS=その他の発光要素  
+screen.GLOWING_STUFF_SETTINGS.comment=その他のブロックの発光を調整する設定です。  
+  
+screen.OTHER_IPBR_SETTINGS=その他のIPBR+機能  
+screen.OTHER_IPBR_SETTINGS.comment=IntegratedPBR+のその他の設定です。  
+  
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr マテリアル  
+screen.CUSTOM_PBR_SETTINGS.comment=labPBR/seuspbrの機能に関連する設定です。  
+  
+screen.LIGHTING_SETTINGS=ライティング  
+screen.LIGHTING_SETTINGS.comment=ライティング（照明・光）に関連する設定です。  
+  
+screen.LIGHT_COLOR_SETTINGS=ライティングカラー乗数  
+screen.LIGHT_COLOR_SETTINGS.comment=すべての表面に見られる光の色をカスタマイズできます。  
+  
+screen.MORNING_LIGHT_MULTS=日の出 / 日の入り時  
+screen.NOON_LIGHT_MULTS=昼間  
+screen.NIGHT_LIGHT_MULTS=夜間  
+screen.RAIN_LIGHT_MULTS=雨天  
+screen.NETHER_LIGHT_MULTS=ネザー次元  
+screen.END_LIGHT_MULTS=エンド次元  
+  
+screen.BLOCKLIGHT_SETTINGS=ブロック光の色  
+screen.BLOCKLIGHT_SETTINGS.comment=光源ブロックから照射される光の色を調整する設定です。  
+screen.BLOCKLIGHT_COLOR_SETTINGS=ブロック光の色  
+screen.BLOCKLIGHT_COLOR_SETTINGS.comment=光源ブロックから照射される光の色を調整する設定です。  
+  
+screen.MOON_PHASE_INF_SETTINGS=月相の影響  
+screen.MOON_PHASE_INF_SETTINGS.comment=月の満ち欠けが夜間のライティングに与える影響を設定します。  
+  
+screen.ACL_FEATURES_SETTINGS=ACL限定機能 §e[*]§r  
+screen.ACL_FEATURES_SETTINGS.comment=Advanced Colored Lighting（高度カラーライティング）の専用機能に関する設定です。 §e[*]§r パフォーマンス設定で有効化されており、お使いの環境が対応している場合のみ機能します。  
+  
+screen.PIXELATED_LIGHTING_SETTINGS=ピクセル化ライティング  
+screen.PIXELATED_LIGHTING_SETTINGS.comment=特定のライティング効果をピクセル化（ドット絵風）にする設定です。  
+  
+screen.WATER_SETTINGS=水  
+screen.WATER_SETTINGS.comment=水に関する設定です。  
+  
+screen.WATER_COLOR_SETTINGS=水面の色  
+  
+screen.UNDERWATER_COLOR_SETTINGS=水中での色  
+  
+screen.WATER_WAVE_SETTINGS=水の波線（法線） §e[*]§r  
+screen.WATER_WAVE_SETTINGS.comment=水面に見られる波の方向（法線）をカスタマイズする設定です。 §e[*]§r 水のスタイルが「Reimagined + Waves」または「Unbound」に設定されている場合のみ機能します。  
+  
+screen.WAVING_SETTINGS=揺れるテクスチャ  
+screen.WAVING_SETTINGS.comment=植物などの揺れるテクスチャに関する設定です。  
+  
+screen.OTHER_SETTINGS=その他  
+screen.OTHER_SETTINGS.comment=他のカテゴリに分類されない設定です。  
+  
+screen.SELECT_OUTLINE_SETTINGS=選択枠線  
+screen.SELECT_OUTLINE_SETTINGS.comment=ブロックの選択枠線を変更する設定です。  
+  
+screen.WORLD_OUTLINE_SETTINGS=ワールド枠線  
+screen.WORLD_OUTLINE_SETTINGS.comment=追加のアウトライン効果に関する設定です。  
+  
+screen.VX_SETTINGS=Rethinking Voxels 設定  
+screen.VX_SETTINGS.comment=Rethinking Voxelsによって導入された独自の設定です。  
+  
+screen.VX_VOL_SETTINGS=ボクセル化設定  
+screen.VX_VOL_SETTINGS.comment=高度な光計算に使用される世界の部分を変更する設定です。  
+  
+screen.RT_SETTINGS=レイトレーシング設定  
+  
+screen.VBL_SETTINGS=ボリューメトリックブロック光設定  
+screen.VBL_SETTINGS.comment=立体的なブロック光に関する設定です。ブロック光源の周囲で霧が光る効果です。  
+  
+screen.VX_WORLD=その他のエフェクト  
+  
+screen.BLOCKCOLS=ブロック光源  
+screen.BLOCKCOLS.comment=ブロック光源に関連する設定です。  
+  
+screen.ENTITYCOLS=エンティティ光源  
+screen.ENTITYCOLS.comment=エンティティ光源に関連する設定です。  
+  
+screen.ORECOLS=鉱石の発光  
+screen.ORECOLS.comment=鉱石の発光に関連する設定です。  
+  
+screen.OTHER_COL=その他 (明るさのみ)  
+screen.OTHER_COL.comment=他のカテゴリに当てはまらない発光設定です。  
+  
+screen.FIRECOLS=炎＆焚き火  
+screen.FIRECOLS.comment=炎や焚き火に関連する設定です。  
+  
+screen.FROGCOLS=フロッグライト  
+screen.FROGCOLS.comment=フロッグライトに関連する設定です。  
+  
+screen.TORCHCOLS=松明  
+screen.TORCHCOLS.comment=松明に関連する設定です。  
+  
+screen.ALLAY_COL=アレイ  
+screen.AMETHYST_COL=アメジストのクラスタ  
+screen.BEACON_COL=ビーコン  
+screen.BERRY_COL=グロウベリー  
+screen.BLAZE_COL=ブレイズ  
+screen.BREWINGSTAND_COL=醸造台  
+screen.CANDLE_COL=ローソク  
+screen.CHORUS_COL=コーラスの花  
+screen.CONDUIT_COL=コンジット  
+screen.COPPER_COL=銅鉱石  
+screen.CRYING_COL=泣く黒曜石  
+screen.TNT_COL=古代の残骸  
+screen.DIAMOND_COL=ダイヤモンド鉱石  
+screen.DRAGON_COL=ドラゴンタマゴ  
+screen.EMERALD_COL=エメラルド鉱石  
+screen.END_COL=エンド関連ブロック  
+screen.ENDCRYSTAL_COL=エンドクリスタル  
+screen.ENDROD_COL=エンドロッド  
+screen.FIRE_COL=炎＆焚き火  
+screen.FURNACE_COL=かまど  
+screen.GLOWSTONE_COL=グロウストーン  
+screen.GOLD_COL=金鉱石  
+screen.GREENFROG_COL=新緑のフロッグライト  
+screen.ICE_COL=青氷  
+screen.IRON_COL=鉄鉱石  
+screen.ITEMFRAME_COL=額縁 (輝く額縁)  
+screen.LAPIS_COL=ラピスラズリ鉱石  
+screen.LAVA_COL=溶岩  
+screen.LICHEN_COL=ヒカリゴケ  
+screen.LIGHTNING_COL=雷  
+screen.MAGMA_COL=マグマブロック / マグマキューブ  
+screen.PICKLE_COL=シーピクルス  
+screen.PINKFROG_COL=真珠色のフロッグライト  
+screen.PORTAL_COL=ネザーポータル  
+screen.PUMPKIN_COL=ジャック・オ・ランタン  
+screen.REDSTONE_COL=レッドストーン鉱石  
+screen.REDSTONELAMP_COL=レッドストーンランプ  
+screen.SCULK_COL=スカルクセンサー  
+screen.SEALANTERN_COL=シーランタン  
+screen.SHROOMLIGHT_COL=シュルームライト  
+screen.SOULFIRE_COL=魂の炎＆魂の焚き火  
+screen.SOULTORCH_COL=魂の松明  
+screen.SPAWNER_COL=スポナー  
+screen.SQUID_COL=ヒカリイカ  
+screen.TABLE_COL=エンチャントテーブル  
+screen.TNT_COL=TNT  
+screen.TORCH_COL=松明  
+screen.YELLOWFROG_COL=黄昏色のフロッグライト  
+screen.DEBRIS_COL=古代の残骸  
+screen.RESIN_COL=樹脂ライト  
+  
+#Settings  
+option.RP_MODE=リソースパックサポート (RP Support)  
+option.RP_MODE.comment=各ブロックやマテリアルの描画方法を計算する内部設定を変更します。 §bIntegrated PBR+§r: 計算されたPBRと追加エフェクト。ほとんどの用途で強く推奨。 §aBasic§r: PBRや追加エフェクトなし。 §elabPBR/seuspbr§r: 専用PBRリソースパックを使用するマテリアル。  
+value.RP_MODE.0=§aBasic (基本)  
+value.RP_MODE.1=§bIntegrated PBR+  
+value.RP_MODE.2=§eseuspbr (RPが必要)  
+value.RP_MODE.3=§elabPBR (RPが必要)  
+  
+option.WATER_REFLECT_QUALITY=水面の反射品質  
+option.WATER_REFLECT_QUALITY.comment=半透明体に映る反射の品質を調整します。 §cMedium§r: 水面や半透明体にスクリーンスペース・レイトレース反射を適用。 §ePotato§r: 反射を軽量な手法に置き換えます（状況によっては不自然に見えることがあります）。 §aOFF§r: 反射なし。ワールドスペース反射はRethinking Voxels設定で別途切り替え可能です。  
+value.WATER_REFLECT_QUALITY.-1=§aオフ  
+value.WATER_REFLECT_QUALITY.0=§a空のみ  
+value.WATER_REFLECT_QUALITY.1=§eポテト  
+value.WATER_REFLECT_QUALITY.2=§c中  
+  
+option.BLOCK_REFLECT_QUALITY=ブロックの反射品質 §e[*]§r  
+option.BLOCK_REFLECT_QUALITY.comment=不透明マテリアルの反射品質を調整します。 §cHigh§r: 太陽/月のハイライト + 時間フィルタによる滑らかな鏡面反射。 §eMedium§r: 太陽/月のハイライト + 鏡面反射。 §aLow§r: 太陽/月のハイライトのみ。 §e[*]§r 鏡面反射を表示するには、RP SupportオプションをBasic以外に設定する必要があります。  
+value.BLOCK_REFLECT_QUALITY.0=§aオフ  
+value.BLOCK_REFLECT_QUALITY.1=§e低  
+value.BLOCK_REFLECT_QUALITY.2=§c中  
+value.BLOCK_REFLECT_QUALITY.3=§c高  
+  
+option.SHADOW_QUALITY=リアルタイム影  
+option.SHADOW_QUALITY.comment=影の品質を調整します。段階を上げるごとにノイズが軽減されます。 §eHigh§r 未満のオプションでは葉の影が最適化され、 §eVery Low§r では影が大幅にダウングレードされます。 §aOFF§r にすると影と光条が完全に無効化されます。  
+value.SHADOW_QUALITY.-1=§aオフ  
+value.SHADOW_QUALITY.0=§e極低  
+value.SHADOW_QUALITY.1=§e低  
+value.SHADOW_QUALITY.2=§e中  
+value.SHADOW_QUALITY.3=§e高  
+value.SHADOW_QUALITY.4=§c最高  
+value.SHADOW_QUALITY.5=§4§lウルトラ  
+  
+option.LIGHTSHAFT_QUALI_DEFINE=光条 (サンレイ) 品質 §e[*]§r  
+option.LIGHTSHAFT_QUALI_DEFINE.comment=光条（サンレイ）の品質を調整します。段階を上げるごとにノイズが減ります。 §e[*]§r 動作させるには「リアルタイム影」をOFF以外にする必要があります。  
+value.LIGHTSHAFT_QUALI_DEFINE.0=§aオフ  
+value.LIGHTSHAFT_QUALI_DEFINE.1=§e低  
+value.LIGHTSHAFT_QUALI_DEFINE.2=§e中  
+value.LIGHTSHAFT_QUALI_DEFINE.3=§c高  
+value.LIGHTSHAFT_QUALI_DEFINE.4=§4§l最高  
+  
+option.shadowDistance=影の描画距離  
+option.shadowDistance.comment=プレイヤーからリアルタイム影を描画する距離を設定します。 §e[*]§r 値は描画距離（チャンク）の上限までとなります。 §e[*]§r パフォーマンスと見栄えのバランスをとるため、描画距離の約80%に設定することをお勧めします。  
+value.shadowDistance.64.0=§a4 チャンク §c[-]  
+value.shadowDistance.80.0=§a5 チャンク §c[-]  
+value.shadowDistance.96.0=§a6 チャンク §c[-]  
+value.shadowDistance.112.0=§a7 チャンク §c[-]  
+value.shadowDistance.128.0=§a8 チャンク  
+value.shadowDistance.160.0=§e10 チャンク  
+value.shadowDistance.192.0=§e12 チャンク  
+value.shadowDistance.224.0=§e14 チャンク  
+value.shadowDistance.256.0=§c16 チャンク  
+value.shadowDistance.320.0=§c20 チャンク  
+value.shadowDistance.384.0=§4§l24 チャンク  
+value.shadowDistance.512.0=§4§l32 チャンク  
+value.shadowDistance.768.0=§4§l§n§o48 チャンク  
+value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64 チャンク§r§4§k-  
+  
+option.ENTITY_SHADOWS_DEFINE=エンティティの影  
+option.ENTITY_SHADOWS_DEFINE.comment=モブやブロックエンティティが影を落とすようにします。 §c[-]§r エンティティの影はパフォーマンスへの影響が大きく、状況によっては50%以上のFPS低下を招くことがあります。  
+value.ENTITY_SHADOWS_DEFINE.-1=§aオフ  
+value.ENTITY_SHADOWS_DEFINE.1=§4§k-§r§4§l§n§oオン§r§4§k- §r§c[-]  
+  
+option.DETAIL_QUALITY=ディテール品質  
+option.DETAIL_QUALITY.comment=パフォーマンスに影響する細かい画質要素を調整します（水素材、TAA、夜空の星雲、ネザーの嵐、エンダービーム、雨の水たまりの精度など）。  
+value.DETAIL_QUALITY.0=§aポテト  
+value.DETAIL_QUALITY.2=§e中  
+value.DETAIL_QUALITY.3=§c高  
+  
+option.CLOUD_QUALITY=雲の品質  
+option.CLOUD_QUALITY.comment=Reimagined / Unbound スタイルの雲のライティング・ディテール・サンプル品質を調整します。 §e[*]§r 「Reimagined」または「Unbound」スタイルの雲でのみ機能します。  
+value.CLOUD_QUALITY.0=§aオフ  
+value.CLOUD_QUALITY.1=§a低  
+value.CLOUD_QUALITY.2=§e中  
+value.CLOUD_QUALITY.3=§c高  
+  
+option.FXAA_DEFINE=アンチエイリアス (FXAA)  
+option.FXAA_DEFINE.comment=FXAAを有効にして、画像のジャギーを軽減し滑らかにします。  
+value.FXAA_DEFINE.-1=§aオフ  
+value.FXAA_DEFINE.1=§eオン  
+  
+option.SSAO_QUALI_DEFINE=エッジシャドウ (SSAO) 品質  
+option.SSAO_QUALI_DEFINE.comment=物体間の角や隙間に陰影を加えるSSAO（スクリーンスペース環境光遮蔽）の品質を調整します。  
+value.SSAO_QUALI_DEFINE.0=§aオフ  
+value.SSAO_QUALI_DEFINE.2=§e中  
+value.SSAO_QUALI_DEFINE.3=§c高  
+  
+option.ANISOTROPIC_FILTER=テクスチャフィルタリング  
+option.ANISOTROPIC_FILTER.comment=異方性フィルタリングを使用してミップマップテクスチャの品質を向上させます。 §e[*]§r ビデオ設定の「ミップマップレベル」を最大(4)に設定してください。  
+value.ANISOTROPIC_FILTER.0=§aオフ  
+value.ANISOTROPIC_FILTER.4=§e4x  
+value.ANISOTROPIC_FILTER.8=§e8x  
+value.ANISOTROPIC_FILTER.16=§4§l16x  
+  
+option.SSAO_I=エッジシャドウ強度 (SSAO)  
+option.SSAO_I.comment=SSAOの強度を設定します。  
+value.SSAO_I.0=§cオフ  
+  
+option.VANILLAAO_I=エッジシャドウ強度 (バニラ)  
+option.VANILLAAO_I.comment=Minecraft標準の環境光遮蔽の強度を設定します。  
+value.VANILLAAO_I.0=§cオフ  
+  
+option.BORDER_FOG=チャンク境界の霧 (Border Fog)  
+option.BORDER_FOG.comment=読み込み限界付近の境界を隠す強い霧です。描画距離が8チャンク未満の場合は無効化を推奨します。  
+  
+option.ATM_FOG_MULT=大気フォグ  
+option.ATM_FOG_MULT.comment=高度に基づく霧の強度を調整します。  
+value.ATM_FOG_MULT.0.50=とても控えめ  
+value.ATM_FOG_MULT.0.65=控えめ  
+value.ATM_FOG_MULT.0.80=標準
