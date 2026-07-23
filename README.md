@@ -8,8 +8,10 @@ Minecraftのシェーダーを日本語化しています。
 # License
 各シェーダー元のライセンスに基づきます。
 
-# 要望について
-issueを作成してください。
+# 翻訳要望/翻訳ミスについて
+- 翻訳要望は[こちら](https://github.com/yamagami2211/shader-jp/issues/new?template=feature_request.md)からissueを作成してください。
+- 翻訳ミスは[こちら](https://github.com/yamagami2211/shader-jp/issues/new?template=translation_error.md)からissueを作成してください。  
+
 
 # 作成
 やまがみ([X](https://x.com/yamagami2211_02)) + Genimi
