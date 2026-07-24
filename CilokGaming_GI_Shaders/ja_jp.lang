@@ -1,0 +1,126 @@
+# shaders/lang/en_US.lang
+#Screens
+screen.ATMOSPHERICS=大気・天候設定
+screen.LIGHTING=ライティング＆影設定
+screen.POSTPROCESSING=ポストプロダクション設定
+screen.SURFACE=水面・地質設定
+screen.MORE_OPTIONS=その他オプション
+screen.EKSKLUSIF_FITUR=限定機能設定
+screen.ABOUT=§6§l§n§oCilok Gaming Shaders
+screen.ABOUT.comment=CilokGaming Shaders はまだベータ版でかなり重いため、デバイスのスペックが不足している場合はご容赦ください :(
+screen.GIADVANCED=高度な GI 設定
+screen.PBR=PBR 設定
+
+
+#Settings
+//Atmospherics
+option.Clouds2D_New=2D 雲 (新)
+option.Clouds2D_Old=2D 雲 (旧)
+option.Cloud3d=立体雲 (ボリューメトリッククラウド)
+option.GODRAYS=光条 (サンレイ)
+option.NO_GODRAYS=光条なし
+option.NO_UNDERWATER_RAYS=水中光条なし
+option.MOONRAYS=月光条
+option.SMOOTH_CLOUDS=スムーズスカイ
+
+
+//Lighting & Shadows 
+option.shadowMapResolution=影の解像度
+option.shadowDistance=影の描画距離
+option.VARIABLE_PENUMBRA_SHADOWS=可変半影シャドウ
+option.COLORED_SHADOWS=着色シャドウ
+option.ENABLE_SOFT_SHADOWS=ソフトシャドウの有効化
+option.ENABLE_SSAO=SSAO (環境光遮蔽)
+
+
+//Surface
+option.RAIN_LENS=雨の水滴レンズ
+option.TEXTURE_RESOLUTION=テクスチャ解像度
+option.RainFog2=雨フォグ
+option.FOG_DENSITY2=雨フォグの密度
+option.PARALLAX=視差立体マッピング (POM)
+option.PARALLAX_DEPTH=視差の深度
+option.PARALLAX_HQ=高精度視差マッピング
+option.PARALLAX_WATER=水の視差効果
+option.Water_Refraction=水の屈折
+option.Dynamic_Water=ダイナミックウォーター
+option.Dynamic_Weather=ダイナミックウェザー
+option.WAVE_HEIGHT=波の高さ
+option.WAVE_HEIGHT_RAIN=降雨時の波の高さ
+option.Under_Water_Fog=水中フォグ
+option.Shifting_Rain=変動する雨
+option.WAVING_WATER=揺れる水面
+option.Water_WaveSpeed1=水の波速 1
+option.Water_WaveSpeed2=水の波速 2
+option.WATER_WAVE=水面の波
+option.RCP=雲平面の映り込み
+option.Water_Fog_Color=水中フォグの色
+
+
+//Post-Processing
+option.MOTIONBLUR=モーションブラー
+option.MOTIONBLUR_STRENGTH=モーションブラー強度
+option.BIG_RAINBOW=大きな虹
+option.Vignette=ヴィネット (周辺減光)
+option.BLOOM_EFFECTS=ブルームエフェクト
+option.FXAA=FXAA (アンチエイリアス)
+
+
+//More Options
+
+
+
+//Fitur Eksklusif Options
+option.WATER_CAUSTICS=水中の日光模様 (コウスティクス)
+option.DOF=被写界深度 (DoF)
+option.Lens_Flare=レンズフレア
+option.RAIN_SPLASH_EFFECT=雨の水はねエフェクト
+option.Global_Illumination=グローバルイルミネーション (GI)
+option.CAUSTICS_STRENGTH=水中の日光模様の強度
+
+
+//Cilok Gaming Shaders
+option.SECRET=§b§l§n超秘密の設定
+value.SECRET.0=
+option.ABOUT2=§e§l§nこのシェーダーは非公式です
+value.ABOUT2.0=
+screen.INTERNAL=CilokGaming 機能 / 改善
+
+
+//Advanced GI
+option.GI_ARTIFACT_REDUCTION=GI アーティファクト軽減
+option.GI_QUALITY=GI 品質
+option.GI_RENDER_RESOLUTION=GI 解像度
+option.GI_RADIUS=GI 半径
+
+
+//Ray Tracing Options
+option.Ertex_On=§a§l§nマジで RTX オンなのか???
+option.Ooommaaaggaattt=§c§l§nマジかよオイイイイ
+
+
+//shaders settings
+option.FSH=フラグメントシェーダー
+option.FSH.comment=オフにしないでね :v
+option.VSH=バーテックスシェーダー
+option.VSH.comment=オフにしないでね :v
+
+//settings
+option.Now_Without=サポート対象外の世界
+value.Now_Without.6=§eネザー
+value.Now_Without.5=§eザ・エンド
+option.C=リメイク製作者
+value.C.1=§aCilokGaming
+value.C.2=§eCilokGaming
+value.C.3=§dCilokGaming
+value.C.4=§bCilokGaming
+
+# Profiles
+profile.Low=§a低
+profile.Low.comment=低画質です。
+profile.Medium=§e中
+profile.Medium.comment=中画質です。
+profile.Standard=§b標準
+profile.Standard.comment=標準的な画質です。
+profile.High=§c高
+profile.High.comment=高画質です。
